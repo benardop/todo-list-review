@@ -8,16 +8,13 @@ const whatIsIndex = (current) => {
   }
   return i - 1;
 };
-
 const checked = (div) => {
   const index = whatIsIndex(div);
 
   const arr = getTasks();
   arr[index].complete = true;
-
   localStorage.setItem('data', JSON.stringify(arr));
 };
-
 const unchecked = (div) => {
   const index = whatIsIndex(div);
 
@@ -26,5 +23,4 @@ const unchecked = (div) => {
 
   localStorage.setItem('data', JSON.stringify(arr));
 };
-
 export { checked, unchecked };

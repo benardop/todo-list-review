@@ -9,5 +9,4 @@ const removeTaskFromLocalStorage = (d) => {
   });
   localStorage.setItem('data', JSON.stringify(arr));
 };
-
 export default removeTaskFromLocalStorage;

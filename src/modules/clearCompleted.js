@@ -7,7 +7,6 @@ const clearCompleted = () => {
     if (element.complete) { dom[index].remove(); }
     return !element.complete;
   });
-
   arr2.sort((b, a) => b.index - a.index);
   localStorage.setItem('data', JSON.stringify(arr2));
 };

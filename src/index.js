@@ -11,7 +11,6 @@ import clearCompleted from './modules/clearCompleted.js';
 
 // Retrieve all task from local storage
 // Edit and remove task from the list
-
 window.onload = () => {
   if (isLocalStorageEmpty()) {
     localStorage.setItem('data', '[]');

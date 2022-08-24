@@ -9,7 +9,6 @@ const addInterAction = (div) => {
   div.firstChild.nextElementSibling.onclick = (e) => {
     e.target.style.display = 'none';
     e.target.nextElementSibling.style.display = 'block';
-
     checked(e.target.parentNode);
   };
 };

@@ -12,5 +12,4 @@ const updateCheckBox = () => {
     }
   });
 };
-
 export default updateCheckBox;
