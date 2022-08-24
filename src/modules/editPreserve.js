@@ -9,7 +9,6 @@ const editPreserve = (div) => {
       i += 1;
       current = current.previousElementSibling;
     }
-
     const arr = getTasks();
     const index = arr.findIndex((object) => object.index === i);
     arr[index].discription = newVal;

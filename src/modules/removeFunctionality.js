@@ -8,5 +8,4 @@ const removeFuncionality = (div) => {
     removeTaskFromLocalStorage(task);
   };
 };
-
 export default removeFuncionality;
